@@ -1,0 +1,54 @@
+/* Contenedor principal que divide la página en dos columnas */
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+/* Estilo para la sección de Flexbox */
+.flexbox-section {
+  width: 50%;
+  padding: 20px;
+  border-right: 1px solid black;
+}
+
+/* Contenedor de Flexbox */
+.flexbox-container {
+  display: flex;
+  gap: 10px;
+}
+
+/* Estilo para la sección de Grid */
+.grid-section {
+  width: 50%;
+  padding: 20px;
+}
+
+/* Contenedor de Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* Estilo para los elementos comunes en Flexbox y Grid */
+.box {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Colores diferenciados para las cajas */
+.flexbox-container .box:nth-child(1),
+.grid-container .box:nth-child(1) {
+  background-color: lightblue;
+}
+
+.flexbox-container .box:nth-child(2),
+.grid-container .box:nth-child(2) {
+  background-color: lightcoral;
+}
+
+.flexbox-container .box:nth-child(3),
+.grid-container .box:nth-child(3) {
+  background-color: lightgreen;
+}

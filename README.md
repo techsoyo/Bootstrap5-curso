@@ -66,9 +66,6 @@ date: "2024-10-01"
 
 💡 <span style="font-family: Arial, sans-serif;"><strong>Consejo</strong>: Aprovecha al máximo este curso practicando los ejemplos y experimentando con las herramientas que Bootstrap 5 ofrece. ¡Diviértete mientras aprendes! 😄</span>
 ```
-
-Aquí tienes las instrucciones para instalar Bootstrap tanto a través del CDN en un archivo HTML como instalándolo localmente en tu PC, siguiendo el estilo del README que proporcionaste:
-
 ---
 
 ## <span style="font-family: Arial, sans-serif;">💻 Instrucciones para instalar Bootstrap 5</span>
@@ -156,4 +153,4 @@ Si prefieres trabajar con los archivos de **Bootstrap 5** directamente en tu com
 
 ---
 
-¡Con estos pasos ya tendrás **Bootstrap 5** funcionando en tu proyecto, ya sea desde el CDN o de manera local! 🚀
+

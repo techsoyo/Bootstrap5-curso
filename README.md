@@ -1,10 +1,3 @@
-Sí, el README está usando algunas etiquetas básicas de Markdown (MD), como:
-
-1. **Encabezados**: `#`, `##`, y `###` para los títulos y subtítulos.
-2. **Código en línea y bloques de código**: Para comandos y ejemplos de código, se utilizan las comillas invertidas (`` ` ``).
-3. **Enlaces**: `[Texto del enlace](URL)` para añadir el link de descarga de Git.
-
-Estas son las etiquetas Markdown presentes en el texto que te proporcioné. Aquí te resalto los elementos clave de Markdown:
 
 ---
 

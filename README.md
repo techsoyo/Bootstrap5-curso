@@ -1,4 +1,16 @@
 ---
+title: "Bootstrap 5 - Curso Básico"
+description: "Repositorio de práctica para el curso de Bootstrap 5."
+author: "Tu Nombre"
+date: "2024-10-01"
+---
+
+# 🌐 Proyecto: **Bootstrap 5 - Curso Básico**
+
+¡Bienvenido a este repositorio de práctica para el curso de **Bootstrap 5**! Aquí aprenderás a usar las herramientas esenciales de desarrollo web, como **HTML**, **CSS**, **JavaScript**, y por supuesto, **Bootstrap 5**.
+
+...
+
 
 ## <span style="font-family: Arial, sans-serif;">🚀 Pasos para clonar este repositorio en <strong>Visual Studio Code</strong></span>
 

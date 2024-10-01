@@ -66,3 +66,5 @@ date: "2024-10-01"
 
 💡 <span style="font-family: Arial, sans-serif;"><strong>Consejo</strong>: Aprovecha al máximo este curso practicando los ejemplos y experimentando con las herramientas que Bootstrap 5 ofrece. ¡Diviértete mientras aprendes! 😄</span>
 ```
+- <span style="font-family: Arial, sans-serif;">Si ves algo similar a:</span>  
+  `git version 2.42.0.windows.2`, ¡Git está instalado correctamente! ✅

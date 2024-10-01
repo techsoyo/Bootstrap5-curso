@@ -43,9 +43,3 @@ Antes de clonar el repositorio, asegúrate de tener **Git** instalado en tu equi
 
 1. En Visual Studio Code, selecciona `File` > `Open Folder`.
 2. Busca y selecciona la carpeta `Bootstrap5-curso` que acabas de clonar.
-
-¡Ahora estás listo para empezar a trabajar con el código del curso!
-
----
-
-Estas son las etiquetas básicas de Markdown. Si quieres agregar más estilo, como listas numeradas, negritas o más títulos, también podrías hacerlo.

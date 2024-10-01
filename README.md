@@ -1,7 +1,7 @@
 ---
 title: "Bootstrap 5 - Curso Básico"
 description: "Repositorio de práctica para el curso de Bootstrap 5."
-author: "Tu Nombre"
+author: "Kiko"
 date: "2024-10-01"
 ---
 

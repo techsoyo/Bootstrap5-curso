@@ -1,80 +1,84 @@
----
-title: "Bootstrap 5 - Curso Básico"
-description: "Repositorio de práctica para el curso de Bootstrap 5."
-author: "Kiko"
-date: "2024-10-01"
+Aquí tienes el README completo con las instrucciones que me solicitaste integradas:
+
 ---
 
 # 🌐 Proyecto: **Bootstrap 5 - Curso Básico**
 
 ¡Bienvenido a este repositorio de práctica para el curso de **Bootstrap 5**! Aquí aprenderás a usar las herramientas esenciales de desarrollo web, como **HTML**, **CSS**, **JavaScript**, y por supuesto, **Bootstrap 5**.
 
-...
+## ✨ Contenido
 
+Este curso cubre los conceptos básicos y avanzados de Bootstrap 5, permitiéndote construir sitios web modernos y responsivos de manera sencilla.
 
-## <span style="font-family: Arial, sans-serif;">🚀 Pasos para clonar este repositorio en <strong>Visual Studio Code</strong></span>
+- **Instalación de Bootstrap**
+  - A través de CDN
+  - Instalación local
+- Componentes esenciales: botones, formularios, tablas, y más.
+- Grid System de Bootstrap.
+- Utilización de Flexbox.
+- Creación de layouts responsivos.
 
-### <span style="font-family: Arial, sans-serif;">1️⃣ Verificar la instalación de <strong>Git</strong></span>
+---
 
-<span style="font-family: Arial, sans-serif;">Antes de clonar el repositorio, asegúrate de tener <strong>Git</strong> instalado en tu equipo.</span> 
+## 🚀 Pasos para clonar este repositorio en **Visual Studio Code**
 
-📋 <span style="font-family: Arial, sans-serif;"><strong>Para verificarlo</strong>:</span>
+### 1️⃣ Verificar la instalación de **Git**
 
-- <span style="font-family: Arial, sans-serif;">Abre la terminal integrada en <strong>Visual Studio Code</strong>:</span>
+Antes de clonar el repositorio, asegúrate de tener **Git** instalado en tu equipo.
+
+📋 **Para verificarlo**:
+
+- Abre la terminal integrada en **Visual Studio Code**:
   - **Windows**: `Ctrl + ñ`
   - **Mac**: `Cmd + \`` (Comando + acento grave)
   
-- <span style="font-family: Arial, sans-serif;">Escribe el siguiente comando:</span>
+- Escribe el siguiente comando:
   ```bash
   git --version
   ```
 
-- <span style="font-family: Arial, sans-serif;">Si ves algo similar a:</span>  
+- Si ves algo similar a:  
   `git version 2.42.0.windows.2`, ¡Git está instalado correctamente! ✅
 
-- <span style="font-family: Arial, sans-serif;"><strong>Si no tienes Git instalado</strong>, descárgalo e instálalo desde el siguiente enlace:</span>  
+- **Si no tienes Git instalado**, descárgalo e instálalo desde el siguiente enlace:  
   🔗 [Descargar Git](https://git-scm.com/downloads)  
-  <span style="font-family: Arial, sans-serif;">Luego, sigue el asistente de instalación y acepta las opciones predeterminadas.</span>
+  Luego, sigue el asistente de instalación y acepta las opciones predeterminadas.
 
 ---
 
-### <span style="font-family: Arial, sans-serif;">2️⃣ Clonar el repositorio</span>
+### 2️⃣ Clonar el repositorio
 
-📂 <span style="font-family: Arial, sans-serif;"><strong>Sigue estos pasos para clonar el repositorio</strong>:</span>
+📂 **Sigue estos pasos para clonar el repositorio**:
 
-1. <span style="font-family: Arial, sans-serif;">En <strong>Visual Studio Code</strong>, abre la terminal o línea de comandos.</span>
-2. <span style="font-family: Arial, sans-serif;">Navega a la carpeta donde deseas clonar este repositorio:</span>
+1. En **Visual Studio Code**, abre la terminal o línea de comandos.
+2. Navega a la carpeta donde deseas clonar este repositorio:
    ```bash
    cd ruta/de/tu/carpeta
    ```
-3. <span style="font-family: Arial, sans-serif;">Ejecuta el siguiente comando para clonar el repositorio:</span>
+3. Ejecuta el siguiente comando para clonar el repositorio:
    ```bash
    git clone https://github.com/techsoyo/Bootstrap5-curso.git
    ```
-4. <span style="font-family: Arial, sans-serif;">Espera a que se complete la clonación. Una vez finalizado, encontrarás los archivos del proyecto en una nueva carpeta llamada `Bootstrap5-curso`. 🎉</span>
+4. Espera a que se complete la clonación. Una vez finalizado, encontrarás los archivos del proyecto en una nueva carpeta llamada `Bootstrap5-curso`. 🎉
 
 ---
 
-### <span style="font-family: Arial, sans-serif;">3️⃣ Abrir el proyecto en <strong>Visual Studio Code</strong></span>
+### 3️⃣ Abrir el proyecto en **Visual Studio Code**
 
-📂 <span style="font-family: Arial, sans-serif;"><strong>Para abrir el proyecto</strong>:</span>
+📂 **Para abrir el proyecto**:
 
-1. <span style="font-family: Arial, sans-serif;">En <strong>Visual Studio Code</strong>, selecciona `File` > `Open Folder`.</span>
-2. <span style="font-family: Arial, sans-serif;">Busca y selecciona la carpeta `Bootstrap5-curso` que acabas de clonar.</span>
+1. En **Visual Studio Code**, selecciona `File` > `Open Folder`.
+2. Busca y selecciona la carpeta `Bootstrap5-curso` que acabas de clonar.
 
 ---
 
-💡 <span style="font-family: Arial, sans-serif;"><strong>Consejo</strong>: Aprovecha al máximo este curso practicando los ejemplos y experimentando con las herramientas que Bootstrap 5 ofrece. ¡Diviértete mientras aprendes! 😄</span>
-```
----
+## 💻 Instrucciones para instalar Bootstrap 5
 
-## <span style="font-family: Arial, sans-serif;">💻 Instrucciones para instalar Bootstrap 5</span>
-
-### <span style="font-family: Arial, sans-serif;">1️⃣ Incluir Bootstrap desde CDN en un archivo HTML</span>
+### 1️⃣ Incluir Bootstrap desde CDN en un archivo HTML
 
 Para empezar a usar **Bootstrap 5** en tu proyecto web de forma rápida, puedes incluir los archivos CSS y JavaScript desde un CDN.
 
-📂 <span style="font-family: Arial, sans-serif;"><strong>Paso a paso:</strong></span>
+📂 **Paso a paso**:
 
 1. En tu archivo **HTML**, agrega la siguiente línea en la sección `<head>` para importar el archivo **CSS** de Bootstrap:
    ```html
@@ -86,7 +90,7 @@ Para empezar a usar **Bootstrap 5** en tu proyecto web de forma rápida, puedes 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
    ```
 
-📋 <span style="font-family: Arial, sans-serif;"><strong>Ejemplo completo</strong>:</span>
+📋 **Ejemplo completo**:
 
 ```html
 <!DOCTYPE html>
@@ -108,11 +112,11 @@ Para empezar a usar **Bootstrap 5** en tu proyecto web de forma rápida, puedes 
 
 ---
 
-### <span style="font-family: Arial, sans-serif;">2️⃣ Instalar Bootstrap localmente en tu PC</span>
+### 2️⃣ Instalar Bootstrap localmente en tu PC
 
 Si prefieres trabajar con los archivos de **Bootstrap 5** directamente en tu computadora, sigue estos pasos para instalarlo:
 
-📂 <span style="font-family: Arial, sans-serif;"><strong>Paso a paso para instalarlo localmente</strong>:</span>
+📂 **Paso a paso para instalarlo localmente**:
 
 1. **Descarga Bootstrap 5** desde su sitio oficial:
    - 🔗 [Descargar Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/)
@@ -129,7 +133,7 @@ Si prefieres trabajar con los archivos de **Bootstrap 5** directamente en tu com
      <script src="ruta/a/tu/bootstrap.bundle.min.js"></script>
      ```
 
-📋 <span style="font-family: Arial, sans-serif;"><strong>Ejemplo completo</strong>:</span>
+📋 **Ejemplo completo**:
 
 ```html
 <!DOCTYPE html>
@@ -149,8 +153,8 @@ Si prefieres trabajar con los archivos de **Bootstrap 5** directamente en tu com
 </html>
 ```
 
-💡 <span style="font-family: Arial, sans-serif;"><strong>Consejo</strong>: Si trabajas con una estructura de carpetas en tu proyecto, asegúrate de que las rutas hacia los archivos **CSS** y **JavaScript** de Bootstrap sean correctas.</span>
+💡 **Consejo**: Si trabajas con una estructura de carpetas en tu proyecto, asegúrate de que las rutas hacia los archivos **CSS** y **JavaScript** de Bootstrap sean correctas.
 
 ---
 
-
+💡 **Consejo**: Aprovecha al máximo este curso practicando los ejemplos y experimentando con las herramientas que Bootstrap 5 ofrece. ¡Diviértete mientras aprendes! 😄

@@ -66,5 +66,94 @@ date: "2024-10-01"
 
 💡 <span style="font-family: Arial, sans-serif;"><strong>Consejo</strong>: Aprovecha al máximo este curso practicando los ejemplos y experimentando con las herramientas que Bootstrap 5 ofrece. ¡Diviértete mientras aprendes! 😄</span>
 ```
-- <span style="font-family: Arial, sans-serif;">Si ves algo similar a:</span>  
-  `git version 2.42.0.windows.2`, ¡Git está instalado correctamente! ✅
+
+Aquí tienes las instrucciones para instalar Bootstrap tanto a través del CDN en un archivo HTML como instalándolo localmente en tu PC, siguiendo el estilo del README que proporcionaste:
+
+---
+
+## <span style="font-family: Arial, sans-serif;">💻 Instrucciones para instalar Bootstrap 5</span>
+
+### <span style="font-family: Arial, sans-serif;">1️⃣ Incluir Bootstrap desde CDN en un archivo HTML</span>
+
+Para empezar a usar **Bootstrap 5** en tu proyecto web de forma rápida, puedes incluir los archivos CSS y JavaScript desde un CDN.
+
+📂 <span style="font-family: Arial, sans-serif;"><strong>Paso a paso:</strong></span>
+
+1. En tu archivo **HTML**, agrega la siguiente línea en la sección `<head>` para importar el archivo **CSS** de Bootstrap:
+   ```html
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   ```
+   
+2. Luego, al final de la sección `<body>`, añade el siguiente script para importar el archivo **JavaScript** de Bootstrap:
+   ```html
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   ```
+
+📋 <span style="font-family: Arial, sans-serif;"><strong>Ejemplo completo</strong>:</span>
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Proyecto Bootstrap 5</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <h1 class="text-center">¡Hola, Bootstrap 5!</h1>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+```
+
+---
+
+### <span style="font-family: Arial, sans-serif;">2️⃣ Instalar Bootstrap localmente en tu PC</span>
+
+Si prefieres trabajar con los archivos de **Bootstrap 5** directamente en tu computadora, sigue estos pasos para instalarlo:
+
+📂 <span style="font-family: Arial, sans-serif;"><strong>Paso a paso para instalarlo localmente</strong>:</span>
+
+1. **Descarga Bootstrap 5** desde su sitio oficial:
+   - 🔗 [Descargar Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/)
+
+2. **Extrae** el archivo ZIP descargado en una carpeta de tu proyecto.
+
+3. **Agrega los archivos CSS y JS** de Bootstrap en tu archivo **HTML**:
+   - En la sección `<head>`, enlaza el archivo **CSS** que descargaste:
+     ```html
+     <link href="ruta/a/tu/bootstrap.min.css" rel="stylesheet">
+     ```
+   - Al final del `<body>`, enlaza el archivo **JavaScript**:
+     ```html
+     <script src="ruta/a/tu/bootstrap.bundle.min.js"></script>
+     ```
+
+📋 <span style="font-family: Arial, sans-serif;"><strong>Ejemplo completo</strong>:</span>
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Proyecto Bootstrap Local</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <h1 class="text-center">¡Hola, Bootstrap Local!</h1>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+```
+
+💡 <span style="font-family: Arial, sans-serif;"><strong>Consejo</strong>: Si trabajas con una estructura de carpetas en tu proyecto, asegúrate de que las rutas hacia los archivos **CSS** y **JavaScript** de Bootstrap sean correctas.</span>
+
+---
+
+¡Con estos pasos ya tendrás **Bootstrap 5** funcionando en tu proyecto, ya sea desde el CDN o de manera local! 🚀
